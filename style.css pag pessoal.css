@@ -1,0 +1,80 @@
+style.css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    color: #555;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section, footer {
+    margin-top: 20px;
+}
+
+#sobre, #habilidades, #contato {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#sobre p, #habilidades p, #contato p {
+    color: #555;
+    line-height: 1.5;
+}
+
+#sobre h2, #habilidades h2, #contato h2 {
+    color: #333;
+}
+
+#contato a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contato a:hover {
+    color: #0056b3;
+}
